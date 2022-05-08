@@ -52,8 +52,3 @@ _zip
 
 /assets/js/*hydejack-*
 /_sass/*/__*__/*
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
