@@ -80,9 +80,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# 로컬 확인 시 theme 주석 해제, 그렇지 않을 경우 remote_Theme 주석 해제
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9.1.6
+theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
@@ -323,7 +322,18 @@ include:
 # ----------------------------------------------------------------------------------------
 
 plugins:
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
   - jekyll-include-cache
+  - jekyll-last-modified-at
 
 
 # SEO Tag
